@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn{
+    display: flex;
+    position:absolute;
+    transform: translate(-50% , -50%);
+    left: 50%;
+    top: 10%;
+    width: 200px;
+    height: 100px;
+    
+}
+.btn1>img , .btn2 >img{
+height: 70px;
+width: 70px;
+border-radius: 50px;
+}
+.btn1 , .btn2{
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 10px;
+}
+.para{
+    position:absolute;
+    transform: translate(-50% , -50%);
+    width: 100%;
+    left: 50%;
+    top: 40%;
+    font-size: 90px;
+    font-weight: bold;
+    text-align: center;
+    
+}
